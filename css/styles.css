@@ -580,7 +580,6 @@ ul > li{
 }
 .Redes_footer{
     color:var(--color_white);
-    padding-top:;
     height: 20px;
     width: 20px;
 }
@@ -841,5 +840,7 @@ ul > li{
 }
 .name_icon{
     position:absolute;
-    padding-left: 0;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
 }
