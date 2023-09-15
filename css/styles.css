@@ -546,7 +546,7 @@ ul > li{
     align-items: center;
     justify-content: space-evenly;
     width: 270px;
-    margin-left: 50px;
+    margin-left: 135px;
     margin-top: 13px;
     padding-left: 0px;
     
@@ -637,6 +637,12 @@ ul > li{
     fill: var(--color_white);
     
 }
+.footer_suscripcion{
+    display: flex;
+}
+.footer_label{
+    position: relative;
+}
 .footer_suscriptor{
     color: #FFF;
     font-family: Roboto;
@@ -657,6 +663,37 @@ ul > li{
     border: 1px solid rgba(255, 255, 255, 0.30);
     background: rgba(33, 150, 243, 0.00);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 70px;
+    color:var(--color_white);
+    position: absolute;
+    padding-left: 16px;
+}
+.boton_footer{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 442px;
+    padding-right: 72px;
+    padding-left: 39px;
+    outline: none;
+    cursor: pointer;
+}
+.footer_icon_suscrition{
+    position: relative;
+    fill: var(--color_white);
+    top: 13px;
+    right: 45px;
+    cursor: pointer;
 }
 /*inicio pagina portfolio */
 .portafolio{
