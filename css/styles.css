@@ -546,8 +546,9 @@ ul > li{
     align-items: center;
     justify-content: space-evenly;
     width: 270px;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-top: 13px;
+    padding-left: 0px;
     
 }
 .footer_contact{
@@ -586,15 +587,20 @@ ul > li{
 .logo_footer{
     display: flex;
     justify-content: center;
-    
+    margin-right: 93px;
+    padding-right: 0px;
+
 }
 .Contact_redes{
-    padding-left: 156px;
     color:var(--color_white);
     font-size: 14px;
     font-weight: 700;
     line-height:1.1;
     display: flex;
+    width: 135px;
+    padding-left: 0px;
+    margin-left: 64px;
+    margin-right: 182px;
     
 }
 .container_address{
@@ -630,6 +636,27 @@ ul > li{
     width: 20px;
     fill: var(--color_white);
     
+}
+.footer_suscriptor{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    width: 350px;
+    margin-left: 0px;
+    width: 275px;
+}
+.footer_email{
+    width: 358px;
+    height: 50px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /*inicio pagina portfolio */
 .portafolio{
