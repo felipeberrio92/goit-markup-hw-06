@@ -956,6 +956,7 @@ ul > li{
     padding-left: 15px;
     margin-bottom: 15px;
     outline: none;
+    resize: none;
 }
 .input_coments:hover , :focus {
     border: 1px solid rgba(33, 150, 243, 1);
