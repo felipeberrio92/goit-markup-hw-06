@@ -19,6 +19,7 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     font-size: 14px;
+    
 }
 
 body{
@@ -55,6 +56,7 @@ ul > li{
     align-items: center;
     margin: auto;
     height: 80px;
+
 }
 .menu_navigation{
     display: flex;
@@ -62,6 +64,7 @@ ul > li{
     justify-content: space-between;
     align-items: center;
     height: auto;
+    outline:none;
 }
 .menu_list{
     display: flex;
@@ -137,6 +140,7 @@ ul > li{
     background: rgb(33, 150, 243);
     left: 0px;
     bottom: -32px; 
+
 }
 .header_link:hover{
     color: var(--color_blue);
@@ -578,6 +582,7 @@ ul > li{
 }
 .footer_contact:focus-within{
     color: var(--color_blue);
+    outline: none;
 }
 .Redes_footer{
     color:var(--color_white);
@@ -654,6 +659,7 @@ ul > li{
     width: 350px;
     margin-left: 0px;
     width: 275px;
+    outline: none;
 }
 .footer_email{
     width: 358px;
@@ -667,6 +673,15 @@ ul > li{
     color:var(--color_white);
     position: absolute;
     padding-left: 16px;
+}
+.footer_email:hover{
+    border: 1px solid #2196F3;
+}
+.footer_email:focus{
+    border: 1px solid #2196F3;
+}
+.footer_email:focus-within{
+    border: 1px solid #2196F3;
 }
 .boton_footer{
     color: #FFF;
@@ -958,7 +973,10 @@ ul > li{
     outline: none;
     resize: none;
 }
-.input_coments:hover , :focus {
+.input_coments:hover{
+    border: 1px solid rgba(33, 150, 243, 1);
+}
+.input_coments:focus {
     border: 1px solid rgba(33, 150, 243, 1);
 }
 
