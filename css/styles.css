@@ -991,7 +991,7 @@ ul > li{
     align-items: center;
     margin-top: 15px;
     cursor: pointer;
-    fill:var(--color_black);
+
 }
 .input_check{
     width: 16px;
