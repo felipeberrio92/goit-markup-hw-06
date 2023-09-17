@@ -542,7 +542,10 @@ ul > li{
     line-height: 1.7;
     letter-spacing: 0.03em;
     outline: none;
+    width: 231px;
+    height: 21px;
 }
+
 .footer_iconos{
     fill:var(--color_gray);
     cursor: pointer;
@@ -564,6 +567,7 @@ ul > li{
     letter-spacing: 0.03em;
     padding-bottom: 60px;
     outline: none;
+
 }
 .footer_address:hover{
     color: var(--color_blue);
@@ -987,6 +991,7 @@ ul > li{
     align-items: center;
     margin-top: 15px;
     cursor: pointer;
+    fill:var(--color_black);
 }
 .input_check{
     width: 16px;
